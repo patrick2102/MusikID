@@ -162,10 +162,6 @@
       <Project>{631e4037-82a1-45bc-a2b1-69f1ec5485d2}</Project>
       <Name>CreateAudioFingerprint</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CreateDatabase\CreateDatabase.csproj">
-      <Project>{abf6dd3e-3fda-46bc-9c16-e8e925f8abd0}</Project>
-      <Name>CreateDatabase</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CreateElasticIndex\CreateElasticIndex.csproj">
       <Project>{82aec2ac-9b8a-4c6e-8450-37afafa4dee2}</Project>
       <Name>CreateElasticIndex</Name>

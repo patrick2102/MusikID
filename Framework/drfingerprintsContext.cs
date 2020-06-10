@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Configuration;
 
 namespace Framework
@@ -28,16 +29,20 @@ namespace Framework
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var reader = new System.IO.StreamReader(@"..\..\..\connection.config");
+            string conn;
+            try {
+                var reader = new System.IO.StreamReader(@"..\..\..\connection.config");
+                conn = reader.ReadLine();
+                reader.Close();
 
-            var conn = reader.ReadLine();
-
-            reader.Close();
+            } catch (Exception e) {
+                Console.WriteLine("Could not open or read file. Could be because there's no connection.config file in the root directory.");
+                throw e;
+            }
 
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseMySql(conn, x => x.EnableRetryOnFailure().ServerVersion("5.7.25-mysql"));
-                
             }
         }
 

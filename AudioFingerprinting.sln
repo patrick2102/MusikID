@@ -29,13 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "Database
 		DatabaseScripts\CopyTables - Internal.sql = DatabaseScripts\CopyTables - Internal.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDatabase", "CreateDatabase\CreateDatabase.csproj", "{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateAudioFingerprint.tests", "CreateAudioFingerprint.tests\CreateAudioFingerprint.tests.csproj", "{DF45D3B3-69E8-4DD7-BFBA-8C7BC0F5BF5C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRules", "BusinessRules\BusinessRules.csproj", "{849F0A3F-5557-4A1C-9824-D9181428F6AE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinesRules.tests", "BusinesRules.tests\BusinesRules.tests.csproj", "{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticFingerprints", "ElasticFingerprint\ElasticFingerprints.csproj", "{19566D1B-6CBE-418A-8730-23C3B66C726C}"
 EndProject
@@ -105,18 +99,6 @@ Global
 		{631E4037-82A1-45BC-A2B1-69F1EC5485D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{631E4037-82A1-45BC-A2B1-69F1EC5485D2}.Release|x64.ActiveCfg = Release|x64
 		{631E4037-82A1-45BC-A2B1-69F1EC5485D2}.Release|x64.Build.0 = Release|x64
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.Debug|x64.ActiveCfg = Debug|x64
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.Debug|x64.Build.0 = Debug|x64
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.DigiLeen|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.DigiLeen|Any CPU.Build.0 = Debug|Any CPU
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.DigiLeen|x64.ActiveCfg = Debug|x64
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.DigiLeen|x64.Build.0 = Debug|x64
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.Release|x64.ActiveCfg = Release|x64
-		{ABF6DD3E-3FDA-46BC-9C16-E8E925F8ABD0}.Release|x64.Build.0 = Release|x64
 		{DF45D3B3-69E8-4DD7-BFBA-8C7BC0F5BF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF45D3B3-69E8-4DD7-BFBA-8C7BC0F5BF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF45D3B3-69E8-4DD7-BFBA-8C7BC0F5BF5C}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -126,27 +108,6 @@ Global
 		{DF45D3B3-69E8-4DD7-BFBA-8C7BC0F5BF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF45D3B3-69E8-4DD7-BFBA-8C7BC0F5BF5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DF45D3B3-69E8-4DD7-BFBA-8C7BC0F5BF5C}.Release|x64.ActiveCfg = Release|Any CPU
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.Debug|x64.ActiveCfg = Debug|x64
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.Debug|x64.Build.0 = Debug|x64
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.DigiLeen|Any CPU.ActiveCfg = Debug|Any CPU
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.DigiLeen|Any CPU.Build.0 = Debug|Any CPU
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.DigiLeen|x64.ActiveCfg = Debug|x64
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.DigiLeen|x64.Build.0 = Debug|x64
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.Release|x64.ActiveCfg = Release|x64
-		{849F0A3F-5557-4A1C-9824-D9181428F6AE}.Release|x64.Build.0 = Release|x64
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.DigiLeen|Any CPU.ActiveCfg = Debug|Any CPU
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.DigiLeen|Any CPU.Build.0 = Debug|Any CPU
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.DigiLeen|x64.ActiveCfg = Debug|Any CPU
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{85CB0E44-2490-4C3F-BB98-EA9A37D5717D}.Release|x64.ActiveCfg = Release|Any CPU
 		{19566D1B-6CBE-418A-8730-23C3B66C726C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19566D1B-6CBE-418A-8730-23C3B66C726C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19566D1B-6CBE-418A-8730-23C3B66C726C}.Debug|x64.ActiveCfg = Debug|x64

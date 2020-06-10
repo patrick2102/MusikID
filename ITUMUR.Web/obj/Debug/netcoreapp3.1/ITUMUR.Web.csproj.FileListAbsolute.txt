@@ -1,6 +1,0 @@
-C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ITUMUR.Web\obj\Debug\netcoreapp3.1\ITUMUR.Web.csprojAssemblyReference.cache
-C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ITUMUR.Web\obj\Debug\netcoreapp3.1\staticwebassets\ITUMUR.Web.StaticWebAssets.Manifest.cache
-C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ITUMUR.Web\obj\Debug\netcoreapp3.1\staticwebassets\ITUMUR.Web.StaticWebAssets.xml
-C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ITUMUR.Web\obj\Debug\netcoreapp3.1\ITUMUR.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ITUMUR.Web\obj\Debug\netcoreapp3.1\ITUMUR.Web.AssemblyInfoInputs.cache
-C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ITUMUR.Web\obj\Debug\netcoreapp3.1\ITUMUR.Web.AssemblyInfo.cs

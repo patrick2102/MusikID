@@ -16,11 +16,11 @@ namespace CDR
     {
         private const string MYSQLCONNECTION_STRING = "Connection Protocol=Sockets;Connect Timeout=30;Server={0};Database={1};User Id={2};Password={3};Port={4}; Pooling=false;Maximum Pool Size=100;Minimum Pool Size=0;Connection Reset=True;AllowUserVariables=true;Keepalive=0";
 
-        public static string mysqlServer = "10.101.183.183";
-        public static string mysqlPort = "3306";
-        public static string mysqlDB = "drfingerprints";
-        public static string mysqlUser = "DBadmin";
-        public static string mysqlPassword = "Passw0rd";
+        public static string mysqlServer;
+        public static string mysqlPort;
+        public static string mysqlDB;
+        public static string mysqlUser;
+        public static string mysqlPassword;
 
         private static bool initialized = false;
 
@@ -29,7 +29,8 @@ namespace CDR
         {
             if (!initialized)
             {
-                string IniPath = DB_Helper.FingerprintIniFile;
+                string IniPath = 
+                    .FingerprintIniFile;
                 if (System.IO.File.Exists(IniPath))
                 {
                     try
