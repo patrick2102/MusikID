@@ -217,10 +217,6 @@ C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\x86\libfftw3f-3.dl
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\x86\libfftw3l-3.dll
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\x86\lz4X86.dll
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\x86\tags.dll
-C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\Fingerprint.ini
-C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\AudioFingerprint.dll.config
-C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\AudioFingerprint.dll
-C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\AudioFingerprint.pdb
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\Microsoft.Win32.Primitives.dll
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\netstandard.dll
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\System.AppContext.dll
@@ -380,3 +376,6 @@ C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\obj\Debug\AudioFingerprint.c
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\obj\Debug\AudioFingerprint.csproj.CopyComplete
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\obj\Debug\AudioFingerprint.dll
 C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\obj\Debug\AudioFingerprint.pdb
+C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\AudioFingerprint.dll.config
+C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\AudioFingerprint.dll
+C:\Users\DREXPLGC\Projects\MusicID\AudioFingerprint\bin\Debug\AudioFingerprint.pdb

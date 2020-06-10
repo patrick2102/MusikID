@@ -1,1 +1,4 @@
 C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RollingWindowCleaner\obj\Debug\RollingWindowCleaner.csprojAssemblyReference.cache
+C:\Users\DREXPLGC\Projects\MusicID\RollingWindowCleaner\obj\Debug\RollingWindowCleaner.csprojAssemblyReference.cache
+C:\Users\DREXPLGC\Projects\MusicID\RollingWindowCleaner\obj\Debug\RollingWindowCleaner.exe
+C:\Users\DREXPLGC\Projects\MusicID\RollingWindowCleaner\obj\Debug\RollingWindowCleaner.pdb

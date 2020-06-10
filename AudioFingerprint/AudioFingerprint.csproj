@@ -1025,9 +1025,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Fingerprint.ini">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="Lucene.Net.3.03\Analysis\Standard\StandardTokenizerImpl.jflex" />
     <None Include="Lucene.Net.3.03\QueryParser\QueryParser.JJ" />
     <None Include="packages.config" />

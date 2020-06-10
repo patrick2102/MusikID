@@ -236,7 +236,6 @@ C:\Users\DREXPLGC\Projects\MusicID\ElasticFingerprint\bin\Debug\System.Memory.xm
 C:\Users\DREXPLGC\Projects\MusicID\ElasticFingerprint\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\DREXPLGC\Projects\MusicID\ElasticFingerprint\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\DREXPLGC\Projects\MusicID\ElasticFingerprint\bin\Debug\System.ServiceModel.Primitives.pdb
-C:\Users\DREXPLGC\Projects\MusicID\ElasticFingerprint\obj\Debug\ElasticFingerprints.csprojAssemblyReference.cache
 C:\Users\DREXPLGC\Projects\MusicID\ElasticFingerprint\obj\Debug\ElasticFingerprints.csproj.CopyComplete
 C:\Users\DREXPLGC\Projects\MusicID\ElasticFingerprint\obj\Debug\ElasticFingerprint.dll
 C:\Users\DREXPLGC\Projects\MusicID\ElasticFingerprint\obj\Debug\ElasticFingerprint.pdb

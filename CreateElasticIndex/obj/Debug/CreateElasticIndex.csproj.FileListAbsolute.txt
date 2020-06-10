@@ -188,7 +188,6 @@ C:\Users\DREXPLGC\Projects\MusicID\CreateElasticIndex\bin\Debug\x86\libfftw3f-3.
 C:\Users\DREXPLGC\Projects\MusicID\CreateElasticIndex\bin\Debug\x86\libfftw3l-3.dll
 C:\Users\DREXPLGC\Projects\MusicID\CreateElasticIndex\bin\Debug\x86\lz4X86.dll
 C:\Users\DREXPLGC\Projects\MusicID\CreateElasticIndex\bin\Debug\x86\tags.dll
-C:\Users\DREXPLGC\Projects\MusicID\CreateElasticIndex\bin\Debug\Fingerprint.ini
 C:\Users\DREXPLGC\Projects\MusicID\CreateElasticIndex\bin\Debug\CreateElasticIndex.exe.config
 C:\Users\DREXPLGC\Projects\MusicID\CreateElasticIndex\bin\Debug\CreateElasticIndex.exe
 C:\Users\DREXPLGC\Projects\MusicID\CreateElasticIndex\bin\Debug\CreateElasticIndex.pdb

@@ -140,7 +140,6 @@ C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\x86\libfftw3f-3.dll
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\x86\libfftw3l-3.dll
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\x86\lz4X86.dll
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\x86\tags.dll
-C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\Fingerprint.ini
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\RadioWorker.exe.config
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\RadioWorker.exe
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\RadioWorker.pdb
@@ -226,3 +225,4 @@ C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\obj\Debug\RadioWorker.exe.config
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\obj\Debug\RadioWorker.csproj.CopyComplete
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\obj\Debug\RadioWorker.exe
 C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\obj\Debug\RadioWorker.pdb
+C:\Users\DREXPLGC\Projects\MusicID\RadioWorker\bin\Debug\App.config

@@ -145,7 +145,6 @@ C:\Users\DREXPLGC\Projects\MusicID\MatchAudio\bin\Debug\x86\libfftw3f-3.dll
 C:\Users\DREXPLGC\Projects\MusicID\MatchAudio\bin\Debug\x86\libfftw3l-3.dll
 C:\Users\DREXPLGC\Projects\MusicID\MatchAudio\bin\Debug\x86\lz4X86.dll
 C:\Users\DREXPLGC\Projects\MusicID\MatchAudio\bin\Debug\x86\tags.dll
-C:\Users\DREXPLGC\Projects\MusicID\MatchAudio\bin\Debug\Fingerprint.ini
 C:\Users\DREXPLGC\Projects\MusicID\MatchAudio\bin\Debug\MatchAudio.exe.config
 C:\Users\DREXPLGC\Projects\MusicID\MatchAudio\bin\Debug\MatchAudio.exe
 C:\Users\DREXPLGC\Projects\MusicID\MatchAudio\bin\Debug\MatchAudio.pdb

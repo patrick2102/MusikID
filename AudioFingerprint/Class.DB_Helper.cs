@@ -29,8 +29,7 @@ namespace CDR
         {
             if (!initialized)
             {
-                string IniPath = 
-                    .FingerprintIniFile;
+                string IniPath = DB_Helper.FingerprintIniFile;
                 if (System.IO.File.Exists(IniPath))
                 {
                     try
