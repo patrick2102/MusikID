@@ -7,14 +7,8 @@ namespace MatchAudio
 {
     public class Ffmpeg
     {
-        string _analysisFolder;
         public string _timeArgument;
         public string _chunkName;
-
-        public Ffmpeg()
-        {
-            _analysisFolder = "analysis";
-        }
 
         public (string, string) BuildArgument(string filePath, int i, string chunkSize, string segmentName) {
             var fileExtension = Path.GetExtension(filePath);

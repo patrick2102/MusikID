@@ -1,12 +1,4 @@
-﻿using System;
-using System.Threading;
-using DatabaseCommunication;
-using System.IO;
-using MatchAudio;
-using CreateAudioFingerprint;
-using System.Globalization;
-
-namespace FingerWorkerProcess
+﻿namespace FingerWorkerProcess
 {
     public class FingerWorkerMain
     {

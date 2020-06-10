@@ -11,19 +11,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using AudioFingerprint;
 using AudioFingerprint.Audio;
-using AcoustID;
-using MySql.Data.MySqlClient;
 using AudioFingerprint.WebService;
 using System.Threading;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 using System.Collections.Concurrent;
-using System.Globalization;
 using Elasticsearch.Net;
 using Framework;
 
@@ -113,7 +107,7 @@ namespace MatchAudio
 
 
 
-        public void ChunkAudioFileAndRunSubFinger(DrRepository _repo, AudioAnalysisDictionary dict, string filePath, long jobID, int file_id, int chunkSize = 6)
+        public void ChunkAudioFileAndRunSubFinger(DrRepository _repo, string filePath, long jobID, int file_id, int chunkSize = 6)
         {
             var dir_path = $@"{sharedPathOnDemand}\Job_{jobID}";
 
@@ -153,14 +147,14 @@ namespace MatchAudio
                 File.Move(file, name);
             }
 
-            RunSubFingerOnMultipleChunks(_repo, dict, dir_path, jobID, file_id);
+            RunSubFingerOnMultipleChunks(_repo, dir_path, jobID, file_id);
 
             if (Directory.Exists(dir_path))
                 Directory.Delete(dir_path, true);
         }
         
 
-        public void RunSubFingerOnMultipleChunks(DrRepository _repo, AudioAnalysisDictionary dict, string chunkFolderPath, long jobID, int file_id)
+        public void RunSubFingerOnMultipleChunks(DrRepository _repo, string chunkFolderPath, long jobID, int file_id)
         {
             var results = new ConcurrentQueue<Result>();
 

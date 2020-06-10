@@ -18,12 +18,9 @@ namespace MatchAudio
 
         public void Match(DrRepository _repo, string _inputPath, long jobID, int file_id)
         {
-            var dict = new AudioAnalysisDictionary();
             var analyzer = new AudioAnalyzer(_segmentDuration);
-            analyzer.ChunkAudioFileAndRunSubFinger(_repo, dict, _inputPath, jobID, file_id, _segmentDuration);
+            analyzer.ChunkAudioFileAndRunSubFinger(_repo, _inputPath, jobID, file_id, _segmentDuration);
         }
-
-        
 
         public async System.Threading.Tasks.Task MatchRollingWindowAsync(DrRepository _repo, string sharedPathForRadioChannels, DateTime start, DateTime end, string channel_id, long jobID)
         {
@@ -44,9 +41,6 @@ namespace MatchAudio
                 }
             }
             filtered = filtered.OrderBy(f => f.Name).ToList();
-            
-
-            var dict = new AudioAnalysisDictionary(channel_id);
 
             var analyzer = new AudioAnalyzer(_segmentDuration);
 
