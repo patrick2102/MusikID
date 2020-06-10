@@ -1,0 +1,20 @@
+
+POST http://itumur04:9200/_cluster/settings *makes the change for all nodes in the cluster*
+Set the disk usage for the nodes, the numbers are how many GB there are allowed to be left on a disk.
+{
+ "transient": {
+   "cluster.routing.allocation.disk.watermark.low": "20gb",
+   "cluster.routing.allocation.disk.watermark.high": "10gb",
+   "cluster.routing.allocation.disk.watermark.flood_stage": "3gb",
+   "cluster.info.update.interval": "5m"
+ }
+}
+
+Disable the read only property
+{
+  "index": {
+    "blocks": {
+      "read_only_allow_delete": "false"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\TaskQueueWatchDog.exe.config
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\TaskQueueWatchDog.exe
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\TaskQueueWatchDog.pdb
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\DatabaseCommunication.exe
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\MySql.Data.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\Google.Protobuf.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\BouncyCastle.Crypto.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\DatabaseCommunication.pdb
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\DatabaseCommunication.exe.config
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\MySql.Data.xml
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\bin\Release\Google.Protobuf.xml
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\obj\Release\TaskQueueWatchDog.csprojAssemblyReference.cache
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\obj\Release\TaskQueueWatchDog.csproj.CoreCompileInputs.cache
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\obj\Release\TaskQueueWatchDog.csproj.CopyComplete
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\obj\Release\TaskQueueWatchDog.exe
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\TaskQueueWatchDog\obj\Release\TaskQueueWatchDog.pdb

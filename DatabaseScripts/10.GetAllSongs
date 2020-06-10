@@ -1,0 +1,17 @@
+
+
+
+##Stored procedures for getting radio urls.
+DROP PROCEDURE IF EXISTS GET_RADIO_URLS;
+
+DELIMITER //
+CREATE PROCEDURE GET_RADIO_URLS(
+)
+ 
+BEGIN
+
+   SELECT DR_ID, streaming_url
+	FROM stations
+	
+   END //
+DELIMITER ;
