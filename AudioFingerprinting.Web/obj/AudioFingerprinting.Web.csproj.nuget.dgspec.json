@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprinting.Web\\AudioFingerprinting.Web.csproj": {}
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprinting.Web\\AudioFingerprinting.Web.csproj": {}
   },
   "projects": {
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprinting.Web\\AudioFingerprinting.Web.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprinting.Web\\AudioFingerprinting.Web.csproj": {
       "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprinting.Web\\AudioFingerprinting.Web.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprinting.Web\\AudioFingerprinting.Web.csproj",
         "projectName": "AudioFingerprinting.Web",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprinting.Web\\AudioFingerprinting.Web.csproj",
-        "packagesPath": "C:\\Users\\DREXMAGP\\.nuget\\packages\\",
-        "outputPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprinting.Web\\obj\\",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprinting.Web\\AudioFingerprinting.Web.csproj",
+        "packagesPath": "C:\\Users\\DREXPLGC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprinting.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DREXMAGP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DREXPLGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,29 +30,29 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\BusinessRules\\BusinessRules.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\BusinessRules\\BusinessRules.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\BusinessRules\\BusinessRules.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\BusinessRules\\BusinessRules.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\DatabaseCommunication\\DatabaseCommunication.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\DatabaseCommunication\\DatabaseCommunication.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\DatabaseCommunication\\DatabaseCommunication.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\DatabaseCommunication\\DatabaseCommunication.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\MatchAudio\\MatchAudio.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\MatchAudio\\MatchAudio.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Worker\\Worker.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Worker\\Worker.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Worker\\Worker.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Worker\\Worker.csproj"
               }
             }
           }
@@ -154,21 +154,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj",
         "projectName": "AudioFingerprint",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ElasticFingerprint\\ElasticFingerprints.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ElasticFingerprint\\ElasticFingerprints.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ElasticFingerprint\\ElasticFingerprints.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ElasticFingerprint\\ElasticFingerprints.csproj"
               }
             }
           }
@@ -178,34 +178,43 @@
         "net461": {}
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\BusinessRules\\BusinessRules.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\BusinessRules\\BusinessRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\BusinessRules\\BusinessRules.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\BusinessRules\\BusinessRules.csproj",
         "projectName": "BusinessRules",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\BusinessRules\\BusinessRules.csproj"
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\BusinessRules\\BusinessRules.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj"
+              }
+            }
+          }
+        }
       },
       "frameworks": {
         "net461": {}
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj",
         "projectName": "CreateAudioFingerprint",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj"
               }
             }
           }
@@ -215,20 +224,20 @@
         "net472": {}
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj",
         "projectName": "CreateElasticIndex",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ElasticFingerprint\\ElasticFingerprints.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ElasticFingerprint\\ElasticFingerprints.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ElasticFingerprint\\ElasticFingerprints.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ElasticFingerprint\\ElasticFingerprints.csproj"
               }
             }
           }
@@ -238,29 +247,29 @@
         "net461": {}
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ElasticFingerprint\\ElasticFingerprints.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ElasticFingerprint\\ElasticFingerprints.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ElasticFingerprint\\ElasticFingerprints.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ElasticFingerprint\\ElasticFingerprints.csproj",
         "projectName": "ElasticFingerprints",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ElasticFingerprint\\ElasticFingerprints.csproj"
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ElasticFingerprint\\ElasticFingerprints.csproj"
       },
       "frameworks": {
         "net461": {}
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj",
-        "packagesPath": "C:\\Users\\DREXMAGP\\.nuget\\packages\\",
-        "outputPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\obj\\",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj",
+        "packagesPath": "C:\\Users\\DREXPLGC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\DREXMAGP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DREXPLGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -281,7 +290,7 @@
           "dependencies": {
             "Elasticsearch.Net": {
               "target": "Package",
-              "version": "[7.5.1, )"
+              "version": "[7.6.0, )"
             },
             "Microsoft.AspNetCore": {
               "target": "Package",
@@ -292,6 +301,18 @@
               "version": "[3.4.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[3.1.1, )"
             },
@@ -306,6 +327,14 @@
             "System.Net.Http": {
               "target": "Package",
               "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           }
         }
@@ -322,20 +351,20 @@
         }
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\MatchAudio\\MatchAudio.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\MatchAudio\\MatchAudio.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj",
         "projectName": "MatchAudio",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\MatchAudio\\MatchAudio.csproj",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\AudioFingerprint\\AudioFingerprint.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\AudioFingerprint\\AudioFingerprint.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj"
               }
             }
           }
@@ -345,37 +374,46 @@
         "net472": {}
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj",
         "projectName": "TaskQueueWatchDog",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj"
-      },
-      "frameworks": {
-        "net461": {}
-      }
-    },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Worker\\Worker.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Worker\\Worker.csproj",
-        "projectName": "Worker",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Worker\\Worker.csproj",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\TaskQueueWatchDog\\TaskQueueWatchDog.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Worker\\Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Worker\\Worker.csproj",
+        "projectName": "Worker",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Worker\\Worker.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateAudioFingerprint\\CreateAudioFingerprint.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\CreateElasticIndex\\CreateElasticIndex.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\CreateElasticIndex\\CreateElasticIndex.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj"
               },
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\MatchAudio\\MatchAudio.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\MatchAudio\\MatchAudio.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\MatchAudio\\MatchAudio.csproj"
               }
             }
           }

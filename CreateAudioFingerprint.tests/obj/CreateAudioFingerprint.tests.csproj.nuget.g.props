@@ -5,7 +5,7 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\DREXMAGP\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\DREXPLGC\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.4.0</NuGetToolVersion>
   </PropertyGroup>
@@ -17,9 +17,9 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\15.9.0\build\netcoreapp1.0\Microsoft.Net.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\15.9.0\build\netcoreapp1.0\Microsoft.Net.Test.Sdk.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.core\2.4.0\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.4.0\build\xunit.core.props')" />
-    <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\DREXMAGP\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\DREXPLGC\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
   </PropertyGroup>
 </Project>

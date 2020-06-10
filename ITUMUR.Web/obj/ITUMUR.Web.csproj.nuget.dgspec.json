@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ITUMUR.Web\\ITUMUR.Web.csproj": {}
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ITUMUR.Web\\ITUMUR.Web.csproj": {}
   },
   "projects": {
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj",
-        "packagesPath": "C:\\Users\\DREXMAGP\\.nuget\\packages\\",
-        "outputPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\obj\\",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj",
+        "packagesPath": "C:\\Users\\DREXPLGC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\DREXMAGP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DREXPLGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -36,7 +36,7 @@
           "dependencies": {
             "Elasticsearch.Net": {
               "target": "Package",
-              "version": "[7.5.1, )"
+              "version": "[7.6.0, )"
             },
             "Microsoft.AspNetCore": {
               "target": "Package",
@@ -47,6 +47,18 @@
               "version": "[3.4.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[3.1.1, )"
             },
@@ -61,6 +73,14 @@
             "System.Net.Http": {
               "target": "Package",
               "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           }
         }
@@ -77,20 +97,20 @@
         }
       }
     },
-    "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ITUMUR.Web\\ITUMUR.Web.csproj": {
+    "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ITUMUR.Web\\ITUMUR.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ITUMUR.Web\\ITUMUR.Web.csproj",
+        "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ITUMUR.Web\\ITUMUR.Web.csproj",
         "projectName": "ITUMUR.Web",
-        "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ITUMUR.Web\\ITUMUR.Web.csproj",
-        "packagesPath": "C:\\Users\\DREXMAGP\\.nuget\\packages\\",
-        "outputPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ITUMUR.Web\\obj\\",
+        "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ITUMUR.Web\\ITUMUR.Web.csproj",
+        "packagesPath": "C:\\Users\\DREXPLGC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ITUMUR.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DREXMAGP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DREXPLGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +123,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj": {
-                "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj"
+              "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj"
               }
             }
           }
@@ -141,7 +161,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -648,23 +648,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DREXMAGP\\.nuget\\packages\\": {},
+    "C:\\Users\\DREXPLGC\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ITUMUR.Web\\ITUMUR.Web.csproj",
+      "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ITUMUR.Web\\ITUMUR.Web.csproj",
       "projectName": "ITUMUR.Web",
-      "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ITUMUR.Web\\ITUMUR.Web.csproj",
-      "packagesPath": "C:\\Users\\DREXMAGP\\.nuget\\packages\\",
-      "outputPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\ITUMUR.Web\\obj\\",
+      "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ITUMUR.Web\\ITUMUR.Web.csproj",
+      "packagesPath": "C:\\Users\\DREXPLGC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\ITUMUR.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DREXMAGP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DREXPLGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -677,8 +677,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj": {
-              "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj"
+            "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj": {
+              "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj"
             }
           }
         }
@@ -715,7 +715,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

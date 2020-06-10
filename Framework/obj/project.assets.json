@@ -8781,20 +8781,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DREXMAGP\\.nuget\\packages\\": {}
+    "C:\\Users\\DREXPLGC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj",
+      "projectUniqueName": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj",
       "projectName": "Framework",
-      "projectPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\Framework.csproj",
-      "packagesPath": "C:\\Users\\DREXMAGP\\.nuget\\packages\\",
-      "outputPath": "C:\\Ozta\\dr-music-recognition\\AudioFingerprinting-master\\Framework\\obj\\",
+      "projectPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\Framework.csproj",
+      "packagesPath": "C:\\Users\\DREXPLGC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DREXPLGC\\Projects\\MusicID\\Framework\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\DREXMAGP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DREXPLGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

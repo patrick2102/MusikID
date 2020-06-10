@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 
 namespace Framework
 {
@@ -27,10 +28,15 @@ namespace Framework
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            var reader = new System.IO.StreamReader(@"..\..\..\connection.config");
+
+            var conn = reader.ReadLine();
+
+            reader.Close();
+
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySql("server=10.101.183.183;port=3306;user=DBadmin;password=Passw0rd;database=drfingerprints;ConnectionTimeout=240;DefaultCommandTimeout=240;SslMode=None", x => x.EnableRetryOnFailure().ServerVersion("5.7.25-mysql"));
+                optionsBuilder.UseMySql(conn, x => x.EnableRetryOnFailure().ServerVersion("5.7.25-mysql"));
                 
             }
         }
