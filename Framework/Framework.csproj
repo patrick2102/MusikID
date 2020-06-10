@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E996450-28C9-4FBC-B104-DE32F5D05C09}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Framework</RootNamespace>
+    <AssemblyName>Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Elasticsearch.Net">
+      <Version>7.6.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CodeAnalysis">
+      <Version>3.4.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore">
+      <Version>3.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql">
+      <Version>3.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore">
+      <Version>2.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Diagnostics.DiagnosticSource">
+      <Version>4.7.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Net.Http">
+      <Version>4.3.4</Version>
+    </PackageReference>
+    <PackageReference Include="System.Threading.Tasks.Extensions">
+      <Version>4.5.3</Version>
+    </PackageReference>
+    <PackageReference Include="System.ValueTuple">
+      <Version>4.5.0</Version>
+    </PackageReference>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class.DB_Helper.cs" />
+    <Compile Include="Class.Inifile.cs" />
+    <Compile Include="DatabaseArgumentEnums.cs" />
+    <Compile Include="DTO\CheckFilesResult.cs" />
+    <Compile Include="DTO\FileResult.cs" />
+    <Compile Include="DTO\LivestreamResultsDTO.cs" />
+    <Compile Include="DTO\TrackDTO.cs" />
+    <Compile Include="DTO\FileDTO.cs" />
+    <Compile Include="DTO\OnDemandResultDTO.cs" />
+    <Compile Include="DTO\ResultDTO.cs" />
+    <Compile Include="Entities\ITaskQueue.cs" />
+    <Compile Include="JobType.cs" />
+    <Compile Include="OnDemandFile.cs" />
+    <Compile Include="Rules\ClusterNearbyRule.cs" />
+    <Compile Include="Rules\DefaultRule.cs" />
+    <Compile Include="drfingerprintsContext.cs" />
+    <Compile Include="Rules\DRInfoRule.cs" />
+    <Compile Include="DrRepository.cs" />
+    <Compile Include="Entities\Errors.cs" />
+    <Compile Include="Entities\Files.cs" />
+    <Compile Include="Entities\FingerTaskQueue.cs" />
+    <Compile Include="Rules\ExpandStartAndEndRule.cs" />
+    <Compile Include="Rules\IBusinessRule.cs" />
+    <Compile Include="IdrfingerprintsContext.cs" />
+    <Compile Include="IDrRepository.cs" />
+    <Compile Include="Entities\Job.cs" />
+    <Compile Include="Entities\LivestreamResults.cs" />
+    <Compile Include="Entities\OnDemandResults.cs" />
+    <Compile Include="Rules\IgnoreAccuracyUnderThresholdRule.cs" />
+    <Compile Include="Rules\IgnoreDurationUnderThresholdRule.cs" />
+    <Compile Include="Rules\IgnoreUnknownRule.cs" />
+    <Compile Include="Rules\NoDuplicateRule.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\RadioTaskQueue.cs" />
+    <Compile Include="Entities\Songs.cs" />
+    <Compile Include="Entities\Stations.cs" />
+    <Compile Include="Entities\Subfingerid.cs" />
+    <Compile Include="Entities\TaskQueue.cs" />
+    <Compile Include="Rules\NoOverExtendRule.cs" />
+    <Compile Include="Rules\RemoveOverlappingRule.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="Rules\RuleApplier.cs" />
+    <Compile Include="Rules\RuleParser.cs" />
+    <Compile Include="SQLCommunication.cs" />
+    <Compile Include="StoredProceduresEnums.cs" />
+    <Compile Include="TaskType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+  </Target>
+</Project>

@@ -1,0 +1,27 @@
+this file does not work \\musa01\Archive\Public\release\002\220\406\2220406-1-8_original.mp3
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry '2220406-1-8' for key 'DK1_SONGS' ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry '2220406-1-8' for key 'DK1_SONGS'
+   ved System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ved MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext() i C:\projects\mysqlconnector\src\MySqlConnector\Core\ResultSet.cs:linje 49
+   --- Slut på staksporing af indre undtagelser ---
+   ved MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet() i C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:linje 125
+   ved MySql.Data.MySqlClient.MySqlDataReader.<CreateAsync>d__95.MoveNext() i C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:linje 405
+--- Afslutningen på staksporingen fra den tidligere placering, hvor undtagelsen blev udløst ---
+   ved System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ved System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ved MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext() i C:\projects\mysqlconnector\src\MySqlConnector\Core\CommandExecutor.cs:linje 62
+--- Afslutningen på staksporingen fra den tidligere placering, hvor undtagelsen blev udløst ---
+   ved System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ved System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ved MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) i C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:linje 217
+   ved Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   ved Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- Slut på staksporing af indre undtagelser ---
+   ved Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   ved Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   ved Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   ved Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   ved Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   ved Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   ved Framework.DrRepository.InsertFingerprint(Int32 diskotekNr, Int32 sideNr, Int32 sequenceNr, String subFingerPrintRef, Int64 duration, Byte[] signature) i C:\Ozta\dr-music-recognition\AudioFingerprinting-master\Framework\DrRepository.cs:linje 852
+   ved CreateAudioFingerprint.FingerprintCreator.Create(String _audioFilePath) i C:\Ozta\dr-music-recognition\AudioFingerprinting-master\CreateAudioFingerprint\FingerprintCreator.cs:linje 113
+   ved MakeSubFinger.FingerprintPathHandler.CreateFingerPrintsFromPathArray(String[] files, Int64 jobID) i C:\Ozta\dr-music-recognition\AudioFingerprinting-master\CreateAudioFingerprint\FingerprintPathHandler.cs:linje 65

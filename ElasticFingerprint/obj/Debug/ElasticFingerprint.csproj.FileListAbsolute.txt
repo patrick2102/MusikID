@@ -1,0 +1,11 @@
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Debug\ElasticFingerprint.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Debug\ElasticFingerprint.pdb
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Debug\Elasticsearch.Net.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Debug\Nest.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Debug\Elasticsearch.Net.xml
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Debug\Nest.xml
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Debug\ElasticFingerprint.csproj.CoreCompileInputs.cache
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Debug\ElasticFingerprint.csproj.CopyComplete
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Debug\ElasticFingerprint.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Debug\ElasticFingerprint.pdb
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Debug\ElasticFingerprint.csprojAssemblyReference.cache

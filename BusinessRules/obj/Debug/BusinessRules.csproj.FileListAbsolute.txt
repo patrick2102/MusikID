@@ -1,0 +1,2 @@
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\BusinessRules\obj\Debug\BusinessRules.exe.config

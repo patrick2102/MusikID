@@ -1,0 +1,5 @@
+System.ComponentModel.Win32Exception (2): Den angivne fil blev ikke fundet
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at AudioFingerprinting.Web.Controllers.AudioController.<>c__DisplayClass2_0.<PostAudio>b__0() in C:\Users\DREXMAGP\OneDrive - DR\Profil\Desktop\dr-music-recognition\AudioFingerprinting-master\AudioFingerprinting.Web\Controllers\AudioController.cs:line 139

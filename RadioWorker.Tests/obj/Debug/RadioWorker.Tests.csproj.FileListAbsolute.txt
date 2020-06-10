@@ -1,0 +1,13 @@
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\RadioWorker.Tests.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\RadioWorker.Tests.pdb
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\obj\Debug\RadioWorker.Tests.csprojAssemblyReference.cache
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\obj\Debug\RadioWorker.Tests.csproj.CopyComplete
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\obj\Debug\RadioWorker.Tests.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\RadioWorker.Tests\obj\Debug\RadioWorker.Tests.pdb

@@ -1,0 +1,11 @@
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Release\ElasticFingerprint.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Release\ElasticFingerprint.pdb
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Release\Elasticsearch.Net.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Release\Nest.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Release\Elasticsearch.Net.xml
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\bin\Release\Nest.xml
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Release\ElasticFingerprints.csprojAssemblyReference.cache
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Release\ElasticFingerprints.csproj.CoreCompileInputs.cache
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Release\ElasticFingerprints.csproj.CopyComplete
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Release\ElasticFingerprint.dll
+C:\Ozta\dr-music-recognition\AudioFingerprinting-master\ElasticFingerprint\obj\Release\ElasticFingerprint.pdb

@@ -1,0 +1,25 @@
+USE DRFINGERPRINTS;
+
+##Stored procedures for Merging all data in newsong into songs and clearing newsongs afterwards
+DROP PROCEDURE IF EXISTS CLEAR_AND_MERGE_NEW_SONGS;
+
+DELIMITER //
+CREATE PROCEDURE CLEAR_AND_MERGE_NEW_SONGS()
+ 
+BEGIN
+	
+	INSERT INTO songs
+	SELECT * FROM newsongs
+	where id <> 13862;
+	
+	TRUNCATE newsongs;
+	
+	SET @max = (SELECT MAX(id) + 1 from songs);
+	SET @s = CONCAT('ALTER TABLE NEWSONGS AUTO_INCREMENT = ', @max);
+	PREPARE stm FROM @s;
+	EXECUTE stm;
+	DEALLOCATE PREPARE stm;
+
+   END //
+DELIMITER ;
+

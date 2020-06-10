@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Framework
+{
+    public enum StoredProceduresEnums
+    {
+        SUBFINGERID_IU, SUBFINGERID_D, FINGERID_IU, FINGERID_D, CHECK_IF_SONG_FP,
+        GET_RADIO_URL_FROM_ID, GET_RADIO_URLS, INSERT_STATIONS, INSERT_JOB, UPDATE_JOB, INSERT_ON_DEMAND_RESULTS, UPDATE_ON_DEMAND_RESULTS,
+        INSERT_FILE, INSERT_LIVESTREAM_RESULTS, UPDATE_LIVESTREAM_RESULTS,
+        REMOVE_INTERVAL,
+        INSERT_ERROR,
+        GET_LIVESTREAM_RESULTS,
+        GET_ON_DEMAND_RESULTS,
+        GET_JOB_STATUS,
+        GET_FILES,
+        GET_ON_DEMAND_FILES,
+        INSERT_TASK,
+        INSERT_RADIO_TASK,
+        GET_TASK,
+        GET_RADIO_TASK,
+        DELETE_TASK,
+        DELETE_RADIO_TASK,
+        GET_RUNNING_RADIOS,
+        RESET_CRASHED_TASKS,
+        RESET_CRASHED_RADIO_TASKS,
+        GET_JOBS,
+        GET_FILE,
+        GET_JOB,
+        UPDATE_FILE,
+        DELETE_RESULTS,
+        UPDATE_STATION,
+        GET_STATIONS_ALL,
+        GET_TRACKS,
+        GET_TRACK,
+        GET_ON_DEMAND_FILE,
+        GET_TRACK_DISKONUMBER,
+        UPDATE_TASK,
+        GET_FINGER_TASK,
+        INSERT_FINGER_TASK,
+        UPDATE_FINGER_TASK,
+        DELETE_FINGER_TASK,
+    }
+}
